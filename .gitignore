@@ -1,0 +1,10 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp
+test_*
+_temp_
+
+# Git
+.git/
