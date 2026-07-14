@@ -544,6 +544,8 @@ $\Delta V = \frac{\Delta I}{\Delta t} \times L_{trace} + \frac{\Delta Q}{C_{deco
 
 ### 电感在高速电路中的三大作用
 
+![电感在高速电路中的作用](images/Ch02_fig_inductor_roles.png)
+
 #### 1. 通直流、阻交流
 
 $Z = j\omega L = 2\pi f L$，频率越高感抗越大。直流分量($f=0$)感抗为零，交流分量频率越高越难通过。此特性用于电源滤波: 串联电感阻隔电源线上的高频噪声(交流)，让直流顺利通过。
