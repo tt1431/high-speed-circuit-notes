@@ -544,7 +544,6 @@ $\Delta V = \frac{\Delta I}{\Delta t} \times L_{trace} + \frac{\Delta Q}{C_{deco
 
 ### 电感在高速电路中的三大作用
 
-![电感在高速电路中的作用](images/Ch02_fig_inductor_roles.png)
 
 #### 1. 通直流、阻交流
 
