@@ -510,9 +510,9 @@ $\Delta V = \frac{\Delta I}{\Delta t} \times L_{trace} + \frac{\Delta Q}{C_{deco
 
 ### 经典案例
 
-![图2.22 PHY芯片电源的产生电路](images/Ch02_fig2.22_PHY_power.png)
-
 #### 【案例 2-13】LC 低通滤波导致输出电源纹波偏大
+
+![图2.22 PHY芯片电源的产生电路](images/Ch02_fig2.22_PHY_power.png)
 
 **现象**: PHY 芯片外部晶体管产生的 1.5V 电源存在 160mV 纹波。
 
@@ -522,11 +522,11 @@ $\Delta V = \frac{\Delta I}{\Delta t} \times L_{trace} + \frac{\Delta Q}{C_{deco
 
 **教训**: 不要迷信 LC 滤波，先搞清楚电路结构再决定是否需要。
 
+#### 【案例 2-14】大电流通路 PI 型滤波造成电压衰减
+
 ![图2.23 PI型滤波电路及PCB电源平面分配](images/Ch02_fig2.23_PI_filter.png)
 
 上图左侧为 MAC 芯片 PI 型滤波电路(MAC1/MAC2 各一串 L+双电容)，右侧为 PCB 内层 1.8V 电源平面布置图，展示电源模块经 550mil 宽路径供电至 MAC 芯片的走线布局。
-
-#### 【案例 2-14】大电流通路 PI 型滤波造成电压衰减
 
 **现象**: MAC 芯片 1.8V 电源 P1V8_MAC1(1.67V)和 P1V8_MAC2(1.61V) 低于最低要求 1.62V。
 
